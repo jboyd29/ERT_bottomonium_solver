@@ -1,0 +1,29 @@
+##### Lindblad Solver param file
+
+##### Constants
+#-hbar*c [GeV*fm]
+hbarc 0.1973
+
+##### Physics Params
+#-Heavy quark mass [GeV]
+##m 4.73
+M 4.8
+m 4.8
+#-Tc [GeV]
+Tc 0.155
+#-1/Typical heavy quark distance
+a0inv 1.334
+
+##### Sim Params
+#-Number of grid points
+NPts 400
+#-Max r [GeV]
+RMax 30
+#-Kappa setting (heavy quark momentum diffusion coefficient)
+kSet 2.6
+#kSet 0.0
+#-Gamma setting (heavy quark --- coefficient)
+gam 0
+#-Freezeout temp
+TMin 0.25
+
